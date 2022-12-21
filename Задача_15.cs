@@ -6,7 +6,32 @@
 Console.WriteLine("Введите число");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if ((a==6)^(a==7))
+switch (a)
+{
+    case 6:
+        Console.WriteLine("да");
+        break;
+    case 7:
+        Console.WriteLine("да");
+        break;
+    case 1:
+        Console.WriteLine("нет");
+        break;
+    case 2:
+        Console.WriteLine("нет");
+        break;
+    case 3:
+        Console.WriteLine("нет");
+        break;
+    case 4:
+        Console.WriteLine("нет");
+        break;
+    case 5:
+        Console.WriteLine("нет");
+        break;
+}
+
+/* if ((a==6)^(a==7))
     {Console.WriteLine("да");}
 else
-    {Console.WriteLine("нет");} 
+    {Console.WriteLine("нет");} */
